@@ -1,0 +1,15 @@
+meta {
+  name: Get Managers
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{host}}/api/users/managers
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}

@@ -1,0 +1,19 @@
+meta {
+  name: Edit Comment
+  type: http
+  seq: 12
+}
+
+put {
+  url: {{host}}/api/comments/2
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {"userId":1,"commentText":"Updated comment text."}
+}

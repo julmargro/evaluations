@@ -1,0 +1,19 @@
+meta {
+  name: Create Assessment
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{host}}/api/assessments
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {"userId":2, "level": "Intermediate"}
+}

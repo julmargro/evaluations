@@ -1,0 +1,24 @@
+meta {
+  name: Add Peer Feedback
+  type: http
+  seq: 17
+}
+
+post {
+  url: {{host}}/api/feedback
+  body: multipartForm
+  auth: none
+}
+
+body:form-urlencoded {
+  : 
+}
+
+body:multipart-form {
+  assessmentId: 4 @contentType(Text)
+  file: @file()
+}
+
+body:file {
+  file: @file()
+}

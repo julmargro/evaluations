@@ -1,0 +1,19 @@
+meta {
+  name: Update Assessment
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{host}}/api/assessments/16
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {"assessmentAnswers":{"Q1":"Always","Q2":"Never"}}
+}

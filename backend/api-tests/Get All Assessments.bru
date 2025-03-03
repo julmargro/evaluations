@@ -1,0 +1,19 @@
+meta {
+  name: Get All Assessments
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{host}}/api/assessments?userId=1
+  body: none
+  auth: none
+}
+
+params:query {
+  userId: 1
+}
+
+headers {
+  Content-Type: application/json
+}

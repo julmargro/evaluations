@@ -1,0 +1,15 @@
+meta {
+  name: Submit Assmt For Review
+  type: http
+  seq: 14
+}
+
+put {
+  url: {{host}}/api/assessments/review/15
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}

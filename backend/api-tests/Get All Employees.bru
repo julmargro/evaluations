@@ -1,0 +1,19 @@
+meta {
+  name: Get All Employees
+  type: http
+  seq: 16
+}
+
+get {
+  url: {{host}}/api/employees?userId=2
+  body: none
+  auth: none
+}
+
+params:query {
+  userId: 2
+}
+
+headers {
+  Content-Type: application/json
+}

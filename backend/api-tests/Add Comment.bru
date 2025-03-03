@@ -1,0 +1,19 @@
+meta {
+  name: Add Comment
+  type: http
+  seq: 11
+}
+
+post {
+  url: {{host}}/api/comments/4
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {"userId":2,"commentText":"This is a test comment from userId 2."}
+}

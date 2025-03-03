@@ -1,0 +1,18 @@
+
+> evaluations@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.3.99:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1090ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 688ms (787 modules)
+ GET /login 200 in 842ms
+ ✓ Compiled /favicon.ico in 123ms (434 modules)
+ GET /favicon.ico 200 in 178ms
+ ✓ Compiled /dashboard in 442ms (1099 modules)
+ GET /dashboard?userId=1 200 in 499ms

@@ -1,0 +1,15 @@
+meta {
+  name: Submit Assessment To Complete
+  type: http
+  seq: 15
+}
+
+put {
+  url: {{host}}/api/assessments/complete/15
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}

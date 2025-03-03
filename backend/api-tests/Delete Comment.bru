@@ -1,0 +1,15 @@
+meta {
+  name: Delete Comment
+  type: http
+  seq: 13
+}
+
+delete {
+  url: {{host}}/api/comments/2
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}

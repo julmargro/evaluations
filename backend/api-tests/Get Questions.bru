@@ -1,0 +1,19 @@
+meta {
+  name: Get Questions
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{host}}/api/questions?role=Software Engineer
+  body: none
+  auth: none
+}
+
+params:query {
+  role: Software Engineer
+}
+
+headers {
+  Content-Type: application/json
+}
