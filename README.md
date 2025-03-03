@@ -1,18 +1,26 @@
-# Commands
+## Setup
+Run the following.
+Mac: `./first-install.sh`
+Windows: `bash first-install.sh`
 
-## Start the application
-./start.sh
+## Commands
 
-## Stop the application
-./stop.sh
+### Start the application
+Mac: `./start.sh`
+Windows: `bash start.sh`
 
-## Close and remove docker containers (will remove data from database)
-./stop-docker.sh
+### Stop the application
+Mac: `./stop.sh`
+Windows: `bash stop.sh`
 
-# Login
+### Close and remove docker containers (will remove data from database)
+Mac: `./stop-docker.sh`
+Windows: `bash stop-docker.sh`
+
+## Login
 To login, you need an email and password.
 
-## Test Users
+### Test Users
 
 Below are the test users you can use to log in.
 
@@ -30,7 +38,7 @@ Below are the test users you can use to log in.
 | sav.bear@pointclickcare.com         | password | ✅ Yes                  | Software Engineer |
 | chloe.chan@pointclickcare.com       | password | ✅ Yes                  | Software Engineer |
 
-### Notes:
+#### Notes:
 - ❌ No → Not an individual contributor (e.g., Manager)
 - ✅ Yes → Individual contributor (e.g., Software Engineer)
 - Password for all users is **`password`**.
